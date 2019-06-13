@@ -2,6 +2,7 @@ def roll_call_dwarves(dwarf_list)# code an argument here
   # Your code here
   hash=Hash.new
   dwarf_list.each_with_index {|dwarf, index| hash[dwarf]=index}
+  hash
 end
 
 def summon_captain_planet# code an argument here
